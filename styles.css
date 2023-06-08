@@ -1,0 +1,53 @@
+
+/* The container styles */
+.container{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* The sideba styles */
+.sidebar{
+    /* background-color: rgb(160, 15, 15); */
+    background-image: url(./img/bg.avif);
+    background-size: cover;
+    background-position: center;
+    height: 850px;;
+    
+
+    flex-basis: 30%;
+}
+
+/* The logo's container styles */
+.logo-container{
+    background-color: rgba(0, 0, 0, 0.37);
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* The logo styles */
+
+.logo{
+    width: 80px;
+    
+}
+
+.odin{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+
+
+
+/* The form styles */
+.sign-up-form{
+    background-color: rgba(242, 244, 247, 0.493);
+
+    flex-basis: 70%;
+}
